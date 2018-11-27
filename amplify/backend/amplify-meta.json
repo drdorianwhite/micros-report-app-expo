@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "microsreportappexpo-20181127202542-authRole",
+			"UnauthRoleArn": "arn:aws:iam::002281180791:role/microsreportappexpo-20181127202542-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::002281180791:role/microsreportappexpo-20181127202542-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "microsreportappexpo-20181127202542-deployment",
+			"UnauthRoleName": "microsreportappexpo-20181127202542-unauthRole",
+			"StackName": "microsreportappexpo-20181127202542",
+			"StackId": "arn:aws:cloudformation:us-west-2:002281180791:stack/microsreportappexpo-20181127202542/9d204c50-f282-11e8-ae96-503ac931688d"
+		}
+	},
+	"auth": {
+		"cognito762430d8": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/microsreportappexpo-20181127202542-deployment/amplify-cfn-templates/auth/cognito762430d8-cloudformation-template.yml",
+				"logicalId": "authcognito762430d8"
+			},
+			"lastPushTimeStamp": "2018-11-27T20:34:31.688Z",
+			"output": {
+				"AppClientSecret": "1b8iusbbga801p0q5lie7uoscteqgbrccrbn30lrnhm6jgin36fc",
+				"UserPoolId": "us-west-2_ttCBMdX6I",
+				"AppClientIDWeb": "68b3472i88jda1k3827v12oq1f",
+				"AppClientID": "6fp04p5ng2sc3dqpt1pv6adobj",
+				"IdentityPoolId": "us-west-2:4b05f411-7ff3-4c1a-a505-1937494307f5",
+				"IdentityPoolName": "cognito762430d8_identitypool_762430d8",
+				"UserPoolName": "cognito762430d8_userpool_762430d8"
+			},
+			"lastPushDirHash": "wWbz8ZyyCGGyFfNepWLTpMievCs="
+		}
+	}
+}

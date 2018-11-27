@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "microsreportappexpo-20181127202542-authRole",
+            "UnauthRoleArn": "arn:aws:iam::002281180791:role/microsreportappexpo-20181127202542-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::002281180791:role/microsreportappexpo-20181127202542-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "microsreportappexpo-20181127202542-deployment",
+            "UnauthRoleName": "microsreportappexpo-20181127202542-unauthRole",
+            "StackName": "microsreportappexpo-20181127202542",
+            "StackId": "arn:aws:cloudformation:us-west-2:002281180791:stack/microsreportappexpo-20181127202542/9d204c50-f282-11e8-ae96-503ac931688d"
+        }
+    }
+}
